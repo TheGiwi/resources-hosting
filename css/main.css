@@ -1,0 +1,328 @@
+body{
+	width:100%;
+	height:100%;
+}
+
+
+.menu2:hover{
+	font-size:175%;
+	transition:.5s ease;
+}
+
+
+footer{
+	color: #2c2c2e;
+	text-align:center;
+	padding:15px;
+	background-color:#626263;
+}
+
+.jumbotron h3 {
+	color:#3f3f77;
+	position:relative;
+	text-align:left;
+	font-family:"Merriweather Sans regular",sans-serif;
+	font-size:250%;
+	padding-top:80px;
+	padding-left:100px;
+	padding-bottom:290px;
+	
+}
+
+#imgcap{
+	font-family:"Merriweather Sans", sans-serif;
+}
+
+.jumbotron  {
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-image: url("../img/img_7700wp.jpg");
+	background-size: contain;
+	background-repeat:no-repeat;
+}
+
+#about{
+	padding-top:25px;
+	margin-top:-15px;
+}
+
+.quote{
+	font-size:150%;
+	padding-bottom:25px;
+	color:#6b7277;
+}
+
+.statement {
+	text-align:center; 
+	color:#c2b3d5; 
+	padding:20px;
+}
+
+.icons{
+	font-size:3em;
+	text-align:center;	
+	font-family:"Merriweather sans", bold, sans-serif;
+	
+}
+
+.icons a {
+	color:#5e7c92;
+}
+
+/*===Social media presence effects STARTS===*/
+
+.fa-instagram:hover{
+	font-size:123%;
+	transition:.3s ease-out;
+}
+.fa-wordpress:hover{
+	font-size:123%;
+	transition:.3s ease-out;
+}
+.fa-twitter:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+.fa-dribbble:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+.fa-github:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+.fa-codepen:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+.fa-flickr:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+.fa-behance:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+.fa-youtube-play:hover{
+	font-size:123%;
+	transition:.5s ease-out;
+}
+
+/*===Social media presence effects ENDS====*/
+
+
+.skills{
+	text-align:center;
+	font-family:"Merriweather sans", bold, sans-serif;
+}
+
+.skills h2{
+	font-size:250%;
+	color:#3d3d4c;
+	font-weight:bolder;
+}
+
+
+.skills_box{
+	text-align:center;
+	font-size:500%;
+	margin-top:-1px;
+}
+
+#skills_box{
+	color:#3d3d4c;
+	text-align:center;
+}
+
+.skills_box h4{
+	font-family:sans-serif;
+	font-weight:bolder;
+
+}
+
+.works{
+	position:relative;
+	text-align:center;
+}
+
+.works p {
+	color:#3f3f77;
+	font-size:4em;
+	font-family:"Merriweather sans", sans-serif, bold;
+}
+
+.works:hover a {
+	text-decoration: none;
+}
+
+/*=======WORKS TRANSITIONS BELOW========*/
+
+.works_one{
+	position:relative;
+	text-align:center;
+	
+}
+
+.works_t1 {
+	margin-top:-200px;
+	margin-bottom:120px;
+	padding:20px;
+	position:relative;
+	border-radius:5px;
+	z-index:10;
+	color:white;
+	letter-spacing:0.5px;
+	background:black;
+	visibility:hidden;
+}
+
+.works_one:hover .works_t1 {
+	opacity:0.8;
+	visibility:visible;
+	transition:.7s ease-in;
+	transition:.3s ease-out;
+	
+}
+/*------------------works_two-------------------*/
+.works_two{
+	position:relative;
+	text-align:center;
+	
+}
+
+.works_t2 {
+	margin-top:-195px;
+	margin-bottom:139px;
+	padding:10px;
+	position:relative;
+	border-radius:5px;
+	z-index:50;
+	color:white;
+	letter-spacing:0.5px;
+	background:black;
+	visibility:hidden;
+}
+
+.works_t3 {
+	margin-top:-200px;
+	margin-bottom:120px;
+	padding:5px;
+	position:relative;
+	border-radius:5px;
+	z-index:50;
+	color:white;
+	letter-spacing:0.5px;
+	background:black;
+	visibility:hidden;
+}
+
+.works_two:hover .works_t2 {
+	opacity:0.8;
+	visibility:visible;
+	transition:.7s ease-in;
+	transition:.3s ease-out;
+	
+}
+
+.works_two:hover .works_t3 {
+	opacity:0.8;
+	visibility:visible;
+	transition:.7s ease-in;
+	transition:.3s ease-out;
+	
+}
+/*=======WORKS TRANSITIONS ABOVE========*/
+
+
+.footerlogo {
+	width:5%
+}
+
+
+
+/*=======SCREEN SIZING OPTIONS BELOW=========*/
+
+@media screen and (min-width: 320px) and (max-width: 1365px){
+	.jumbotron {
+		background-size:cover;
+	}
+	
+	.jumbotron h3 {
+		font-size:270%;
+		padding-left:25px;
+	}
+	
+	.quote{
+		font-size:100%;
+	}
+	
+	.skills h2{
+	font-size:1.8em;
+	}
+	
+	.works p {
+		font-size:3em;
+	}
+	
+	.works_t2{
+		
+		bottom:-50px;	
+	}
+	
+	.works_t3{
+		
+		bottom:-60px;	
+	}
+	
+	.footerlogo {
+	width:10%
+	}
+	
+}
+
+@media screen and (min-width:320px) and (max-width:425px){
+		.jumbotron h3 {
+		font-size:130%;
+		padding-left:25px;
+		}
+		.statement h3{
+			font-size:95%;
+		}
+		
+		#skills_box{
+			font-size:400%;
+		}
+		
+		.skills_box h4{
+			font-size:25%;
+		}
+
+		.works_t2{
+		
+		bottom:-50px;
+		}
+		
+		.works_t3{
+		
+		bottom:-60px;
+		}
+}
+
+@media screen and (min-width:768px) and (max-width:1365px){
+	.jumbotron {
+		background-size:contain;
+
+	}
+	
+}
+
+@media screen and (min-width:426px) and (max-width:850px){
+	.jumbotron h3 {
+		font-size:150%;
+		padding-left:25px;
+		}
+	.statement h3{
+			font-size:100%;
+		}
+}
