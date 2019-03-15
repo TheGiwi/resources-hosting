@@ -4,20 +4,20 @@ body{
 }
 
 
-.menu2:hover{
+.menu2:hover {
 	font-size:175%;
 	transition:.5s ease;
 }
 
 
-footer{
-	color: #2c2c2e;
+footer {
+	color: #e6e6e6;
 	text-align:center;
 	padding:15px;
-	background-color:#626263;
+	background-color:#1a1a1a;
 }
 
-.jumbotron h3 {
+/*.jumbotron h3 {
 	color:#3f3f77;
 	position:relative;
 	text-align:left;
@@ -27,47 +27,37 @@ footer{
 	padding-left:100px;
 	padding-bottom:290px;
 	
-}
+}*/
 
-#imgcap{
-	font-family:"Merriweather Sans", sans-serif;
-}
+
 
 .jumbotron  {
-	height:100%;
-	width:100%;
+	
 	background-position:center;
-	background-image: url("../img/img_7700wp.jpg");
+	background-image: url("../img/construction-2667px.png");
 	background-size: contain;
-	background-repeat:no-repeat;
+	/*background-repeat:no-repeat;*/
+	
 }
 
-#about{
-	padding-top:25px;
-	margin-top:-15px;
-}
-
-.quote{
-	font-size:150%;
-	padding-bottom:25px;
-	color:#6b7277;
-}
-
-.statement {
-	text-align:center; 
-	color:#c2b3d5; 
-	padding:20px;
+#cont {
+	margin-top:300px; 
+	margin-bottom:300px;
 }
 
 .icons{
-	font-size:3em;
-	text-align:center;	
+	font-size:4em;
+	text-align:right;	
 	font-family:"Merriweather sans", bold, sans-serif;
 	
 }
 
 .icons a {
-	color:#5e7c92;
+	color:#c1272d;
+}
+
+.h3w {
+	color:#c1272d;
 }
 
 /*===Social media presence effects STARTS===*/
@@ -245,14 +235,18 @@ footer{
 
 @media screen and (min-width: 320px) and (max-width: 1365px){
 	.jumbotron {
-		background-size:cover;
+		background-repeat:no-repeat;
 	}
 	
-	.jumbotron h3 {
+/*		.jumbotron h3 {
 		font-size:270%;
 		padding-left:25px;
+	}*/
+	#cont {
+	margin-top:30px; 
+	margin-bottom:30px;
 	}
-	
+
 	.quote{
 		font-size:100%;
 	}
@@ -282,9 +276,19 @@ footer{
 }
 
 @media screen and (min-width:320px) and (max-width:425px){
-		.jumbotron h3 {
-		font-size:130%;
-		padding-left:25px;
+		.jumbotron {
+		background-image: url("../img/construction-1280px.png");
+		}
+		
+			#cont {
+		margin-top:30px; 
+		margin-bottom:30px;
+		}
+		.h3w {
+		color:#e6e6e6;
+		}
+		.icons a {
+		color:#e6e6e6;
 		}
 		.statement h3{
 			font-size:95%;
@@ -312,15 +316,34 @@ footer{
 @media screen and (min-width:768px) and (max-width:1365px){
 	.jumbotron {
 		background-size:contain;
-
+		background-image: url("../img/construction-1280px.png");
 	}
-	
+		#cont {
+	margin-top:30px; 
+	margin-bottom:30px;
+	}
+	.h3w {
+		color:#e6e6e6;
+		}
+	.icons a {
+		color:#e6e6e6;
+		}
 }
 
 @media screen and (min-width:426px) and (max-width:850px){
-	.jumbotron h3 {
-		font-size:150%;
-		padding-left:25px;
+	.jumbotron {
+		background-image: url("../img/construction-1280px.png");
+		}
+	#cont {
+	margin-top:30px; 
+	margin-bottom:30px;
+	}
+	.h3w {
+		color:#e6e6e6;
+		}
+		
+	.icons a {
+		color:#e6e6e6;
 		}
 	.statement h3{
 			font-size:100%;
