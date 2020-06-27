@@ -47,9 +47,12 @@ footer {
 
 .icons{
 	font-size:4em;
-	text-align:center;	
+	text-align:right;	
 	font-family:"Merriweather sans", bold, sans-serif;
-	
+}
+
+.icons_align{
+	text-align:center;	
 }
 
 .icons a {
