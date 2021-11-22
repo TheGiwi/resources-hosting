@@ -1,2 +1,2 @@
 # resources-hosting
-My old GitHub page that now hosts various assets I provide for download.
+GitHub page that hosts content I provide for download.
