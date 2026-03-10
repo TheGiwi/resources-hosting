@@ -213,7 +213,7 @@
         if (!consent) {
             banner.style.display = 'block';
         } else if (consent === 'accepted') {
-            runTrackingScripts();
+            gtag();
         }
     };
 
@@ -221,7 +221,7 @@
         localStorage.setItem('user_consent', choice);
         banner.style.display = 'none';
         if (choice === 'accepted') {
-            runTrackingScripts();
+            gtag();
         }
     }
 
@@ -235,7 +235,7 @@
         modal.style.display = show ? 'block' : 'none';
     }
 
-    function runTrackingScripts() {
+    function gtag() {
         console.log("GDPR: User Accepted. Loading Tracking Scripts...");
         
         /* PASTE YOUR ANALYTICS/PIXEL SCRIPTS BELOW 
